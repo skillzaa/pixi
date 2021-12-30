@@ -1,0 +1,32 @@
+{
+  "name": "drawengine",
+  "version": "0.0.1",
+  "description": "A thin wrapper for pixijs",
+  "main": "index.js",
+  "dependencies": {
+    "pixi.js": "^5.3.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skillzaa/pixi.git"
+  },
+  "keywords": [
+    "pixi"
+  ],
+  "author": "Bilal Tariq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skillzaa/pixi/issues"
+  },
+  "homepage": "https://github.com/skillzaa/pixi#readme"
+}
