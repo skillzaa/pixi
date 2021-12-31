@@ -4,9 +4,11 @@
 
 
 class DrawEngine {
-  constructor(){
-
-  }
+constructor(width=800,height=600){
+    this.app = new PIXI.Application({ width: 640, height: 360 });
+    document.body.appendChild(app.view);
+   return true;
+}
  get_app(width=800,height=600){
     let app = new PIXI.Application({ width: 640, height: 360 });
     document.body.appendChild(app.view);
